@@ -55,7 +55,7 @@ request.interceptors.response.use(
         return request(error.config)
       } catch (err) {
         console.log(err)
-        // router.push('/login')``
+        router.push('/login')
       }
     }
     return Promise.reject(error)
